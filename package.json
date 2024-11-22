@@ -1,0 +1,19 @@
+{
+  "name": "ai-ui",
+  "private": true,
+  "scripts": {
+    "dev:core-install": "pnpm --filter @ai-ui/core install",
+    "dev:core-build": "pnpm --filter @ai-ui/core build",
+    "dev:core": "pnpm --filter @ai-ui/core dev",
+    "dev:docs-install": "pnpm --filter @ai-ui/docs install",
+    "dev:docs": "pnpm --filter @ai-ui/docs dev",
+    "storybook": "pnpm --filter @ai-ui/core storybook",
+    "build:storybook": "pnpm --filter @ai-ui/core build-storybook",
+    "test": "pnpm --filter @ai-ui/core test",
+    "build": "pnpm -r build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}

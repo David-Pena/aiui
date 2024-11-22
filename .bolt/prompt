@@ -1,0 +1,9 @@
+Now you can use any of these commands from the root:
+
+pnpm dev:core - Run core development server
+pnpm dev:docs - Run docs development server
+pnpm storybook - Run Storybook
+pnpm test - Run tests
+pnpm build - Build all packages
+
+Make sure for any feature you create for the package/core, add the stories and tests.

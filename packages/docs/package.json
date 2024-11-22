@@ -1,0 +1,22 @@
+{
+  "name": "@ai-ui/docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@ai-ui/core": "workspace:*",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.44",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
