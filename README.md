@@ -45,7 +45,7 @@ pnpm storybook   # Run Storybook
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/David-Pena/ai-ui.git
+git clone https://github.com/David-Pena/aiui.git
 cd ai-ui
 ```
 
@@ -69,7 +69,7 @@ pnpm storybook
 ### Project Structure
 
 ```
-ai-ui/
+aiui/
 ├── packages/
 │   ├── core/           # Core component library
 │   │   ├── src/
@@ -104,9 +104,9 @@ ai-ui/
 - `pnpm --filter @ai-ui/core storybook` - Run Storybook
 
 #### Docs Package
-- `pnpm --filter @bolt-ui/docs dev` - Start development
-- `pnpm --filter @bolt-ui/docs build` - Build documentation
-- `pnpm --filter @bolt-ui/docs preview` - Preview built documentation
+- `pnpm --filter @ai-ui/docs dev` - Start development
+- `pnpm --filter @ai-ui/docs build` - Build documentation
+- `pnpm --filter @ai-ui/docs preview` - Preview built documentation
 
 ## Contributing
 
